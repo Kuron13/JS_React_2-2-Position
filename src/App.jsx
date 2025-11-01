@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import './App.css'
 import iconBlock from './img/Block_icon.png'
