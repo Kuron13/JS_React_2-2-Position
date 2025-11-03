@@ -67,12 +67,17 @@
 .card-position {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.card-position::after {
+  content: "";
+  flex: auto;
 }
 
 .item-card {
   display: inline-block;
-  margin: 10px MAX(40px, 10px) 10px;
+  margin: 10px;
   padding: 25px;
   background: #F5F5F5;
 }
