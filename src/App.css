@@ -71,13 +71,12 @@
 }
 
 .item-card {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: 10px;
   padding: 25px;
   background: #F5F5F5;
   flex: 1 0 25%;
-  border: 1px solid #000;
-  box-sizing: border-box;
 }
 
 .item-list {
@@ -100,9 +99,9 @@
 
 .card-img {
   align-items: center;
-  wigth: 300px;
+  width: 300px;
   height: 300px;
-  
+  margin: auto;
 }
 
 .item-img {
