@@ -67,8 +67,8 @@
 .card-position {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
- 
+  justify-content: flex-start;
+  margin: MAX (10px);
 }
 
 .item-card {
@@ -83,10 +83,9 @@
   width: 84vw;
   padding: 10px;
   justify-content: space-between;
+  align-items: center;
   background: #F5F5F5;
 }
-
-
 
 .card-name {
   font-size: 25px;
