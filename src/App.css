@@ -67,8 +67,8 @@
 .card-position {
   display: flex;
   flex-wrap: wrap;
-  justify-content: stretch;
-  margin: MAX (10px);
+  justify-content: flex-start;
+  margin: 10px MAX (40px, 10px) 10px;
 }
 
 .item-card {
